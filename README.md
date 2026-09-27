@@ -1,16 +1,65 @@
-# React + Vite
+# React Product Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive product browsing application built using React.js and a REST API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Fetches product data from a REST API
+* Displays products dynamically using reusable React components
+* Product search functionality
+* Category-based filtering
+* Product details view
+* Loading and error handling
+* Responsive design for desktop, tablet, and mobile
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* HTML
+* CSS
+* REST API
+* JSON
+* Vite
 
-## Expanding the Oxlint configuration
+## React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* Functional Components
+* JSX
+* Props
+* `useState`
+* `useEffect`
+* Event Handling
+* Conditional Rendering
+* Lists and Keys
+* Array `map()` and `filter()`
+
+## API
+
+Product data is retrieved from the DummyJSON Products API.
+
+## How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local development URL shown in the terminal.
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── Header.jsx
+│   └── ProductCard.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Author
+
+Drisha
